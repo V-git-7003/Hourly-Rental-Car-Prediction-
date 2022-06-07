@@ -1,4 +1,5 @@
 "# Hourly-Rental-Car-Prediction-" 
+
 Problem: The main objective of the problem is to
 develop the machine learning approach to forecast
 the demand of car rentals on an hourly basis..
@@ -37,7 +38,9 @@ e. Frequency of different hours in the data is imbalanced among the early mornin
 hours of 12:00 am to 6:00 am
 f. ‘Demand’ with respect to both week day and time is highest between 12:00 pm to
 16:00 pm on Saturday, followed by Sunday and Friday
+
 Model and validation
+
 13. Therefore, we need to use a non-linear model that is immune to imbalanced data. The
 base line model I started with is decision tree, followed by random forest with
 hypertuning and finally a ANN.
